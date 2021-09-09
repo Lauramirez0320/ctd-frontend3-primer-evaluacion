@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
 * {
   margin: 0;
   box-sizing: border-box;
-  background-color: black;
+}
+
+
+
+.stylesApp {
+  background-image: url("./img/galaxy-background@3x-8.png");
 }
 .layout {
   height: 100vh;
@@ -11,7 +20,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: "Hina Mincho", serif;
+  /* font-family: 'Shadows Into Light', cursive; */
+  /* font-family: 'Indie Flower', cursive; */
+  font-family: 'Patrick Hand', cursive;
 }
 
 .story {
@@ -19,7 +30,17 @@
   justify-content: center;
   align-items: center;
   margin-bottom: 30px;
-  color: white;
+  color: #322546;
+  background-color: #ccc5e5;
+  opacity: 0.9;
+  border-radius: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.storyText {
+  padding: 20px;
+  text-align: center;
 }
 
 .options {
