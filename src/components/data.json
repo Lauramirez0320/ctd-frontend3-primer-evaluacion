@@ -1,7 +1,7 @@
 [
   {
     "id": "1",
-    "historia": "Un día como cualquiera te vas a dormir, lo siguiente que sabes es que te despertas en el medio de un bosque.",
+    "historia": "Un día como cualquiera te vas a dormir, lo siguiente que sabes es que te despiertas en medio de un bosque.",
     "opciones": {
       "a": "Pedir ayuda a los gritos.",
       "b": "Mirar a mi alrededor."
@@ -9,18 +9,18 @@
   },
   {
     "id": "2a",
-    "historia": "Instantáneamente entras en pánico por lo bizarro de la situación y gritas: -Aiiudaaaa. Nadie responde. Detrás de un árbol enfrente tuyo se asoma lo que parece ser una bola de pelo de 2 metros.",
+    "historia": "Instantáneamente entras en pánico por lo bizarro de la situación y gritas: - ¡Ayudaaaa!. Nadie responde. Detrás de un árbol, enfrente tuyo, se asoma lo que parece ser una bola de pelo de 2 metros.",
     "opciones": {
-      "a": "Te levantás y caminás lentamente hacia atrás.",
-      "b": "Te levantás y salís corriendo."
+      "a": "Te levantas y caminas lentamente hacia atrás.",
+      "b": "Te levantas y sales corriendo."
     }
   },
   {
     "id": "2b",
-    "historia": "Miras a tu alrededor y ves solo árboles, plantas y hongos, Detrás de un árbol enfrente tuyo se asoma lo que parece ser una bola de pelo de 2 metros.",
+    "historia": "Miras a tu alrededor y ves solo árboles, plantas y hongos. Detrás de un árbol, enfrente tuyo, se asoma lo que parece ser una bola de pelo de 2 metros.",
     "opciones": {
-      "a": "Te levantás y caminás lentamente hacia atrás.",
-      "b": "Te levantás y salís corriendo."
+      "a": "Te levantas y caminas lentamente hacia atrás.",
+      "b": "Te levantas y sales corriendo."
     }
   },
   {
