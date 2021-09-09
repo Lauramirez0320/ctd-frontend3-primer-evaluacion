@@ -6,20 +6,22 @@ class Story extends Component {
   render() {
     return (
       <>
-        <div className="layout">
-          <div className="story">
-            <h1>{this.props.text}</h1>
-          </div>
+        <div className="stylesApp">
+          <div className="layout">
+            <div className="story">
+              <h1 className="storyText">{this.props.text}</h1>
+            </div>
 
-          <div>
-            <Options
-              textLine={this.props.textLine}
-              textButton={this.props.textButton}
-            />
-          </div>
+            <div>
+              <Options
+                textLine={this.props.textLine}
+                textButton={this.props.textButton}
+              />
+            </div>
 
-          <div>
-            <Record />
+            <div>
+              <Record />
+            </div>
           </div>
         </div>
       </>

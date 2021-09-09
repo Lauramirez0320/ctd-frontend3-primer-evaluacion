@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import dataJson from "./data.json";
 import Options from "./Options";
 import Record from "./Record";
+import Swal from 'sweetalert2'
+import withReactContent from 'sweetalert2-react-content'
+const MySwal = withReactContent(Swal);
 
 let recordList = [];
 
@@ -13,6 +16,7 @@ class View extends Component {
       loading: true,
       count: 0,
       records: "",
+      img:"",
       //recordList: [],
     };
   }
@@ -20,17 +24,24 @@ class View extends Component {
   componentDidMount() {
     setTimeout(() => {
       this.setState({ data: dataJson, loading: false });
+      this.setState({img: dataJson[0].img});
     }, 1000);
     console.log("creando");
   }
 
   handlerClick = (e) => {
     const idButton = e.target.id;
-    console.log("Clickeaste: " + idButton);
-    // selectButton: idButton;
-
+    
     if (this.state.count > 5) {
-      alert("Se acabó 7u7");
+      MySwal.fire({
+        title: 'Ya se acabó la historia, shu de aquí ',
+        showClass: {
+          popup: 'animate__animated animate__fadeInDown'
+        },
+        hideClass: {
+          popup: 'animate__animated animate__fadeOutUp'
+        }
+      })
     } else if (idButton === "a" && this.state.records !== "A") {
       this.setState({
         count: this.state.count + 1,
@@ -65,14 +76,15 @@ class View extends Component {
 
   render() {
     return (
-      <div className="App">
+      <div className="stylesApp">
         {this.state.loading ? (
           <div>Loading...</div>
         ) : (
           <>
             <div className="layout">
+
               <div className="story">
-                <h1>{this.state.data[this.state.count].historia}</h1>
+                <h2>{this.state.data[this.state.count].historia}</h2>
               </div>
 
               <div>
