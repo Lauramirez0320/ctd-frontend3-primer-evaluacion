@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ctd-frontend3-primer-evaluacion/static/css/main.5c6b999f.chunk.css",
+    "main.js": "/ctd-frontend3-primer-evaluacion/static/js/main.6772fa8d.chunk.js",
+    "main.js.map": "/ctd-frontend3-primer-evaluacion/static/js/main.6772fa8d.chunk.js.map",
+    "runtime-main.js": "/ctd-frontend3-primer-evaluacion/static/js/runtime-main.a699141a.js",
+    "runtime-main.js.map": "/ctd-frontend3-primer-evaluacion/static/js/runtime-main.a699141a.js.map",
+    "static/js/2.bab64187.chunk.js": "/ctd-frontend3-primer-evaluacion/static/js/2.bab64187.chunk.js",
+    "static/js/2.bab64187.chunk.js.map": "/ctd-frontend3-primer-evaluacion/static/js/2.bab64187.chunk.js.map",
+    "index.html": "/ctd-frontend3-primer-evaluacion/index.html",
+    "static/css/main.5c6b999f.chunk.css.map": "/ctd-frontend3-primer-evaluacion/static/css/main.5c6b999f.chunk.css.map",
+    "static/js/2.bab64187.chunk.js.LICENSE.txt": "/ctd-frontend3-primer-evaluacion/static/js/2.bab64187.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/ctd-frontend3-primer-evaluacion/static/media/galaxy-background@3x-8.44d63519.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a699141a.js",
+    "static/js/2.bab64187.chunk.js",
+    "static/css/main.5c6b999f.chunk.css",
+    "static/js/main.6772fa8d.chunk.js"
+  ]
+}
